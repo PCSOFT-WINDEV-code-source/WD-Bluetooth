@@ -1,0 +1,434 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_RécupFichiers
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_RécupFichiers
+ identifier : 0x288707520ea76e21
+ internal_properties : CAAAAAgAAADp+TTGdR0g9HDmAkg9NDHVtkXLuMHwIMvecSKxKxa9MJ6zKs2OVnoVzg3z+XCKeD9aWISmaqo1RVnq05epP5hOPii9NuiHRK115ol002k+JDtC4+TC8HkyNRdQwHpx3BNmIelaGg2e29BVJJL3YDLWibVQWo34FuJSaL6zQJW0LXehKVyV69M2q2I6vvXrFX/izeTfdm2seYi0y/Ev0v4XgqoUtzGDTlZmbiW/Ge31Y2dk8PBQ9jPbkDslb1U9Iw14nip91TrkpIK28PmC/7XrZtg1QS7yPVqDlmIVmTN8wDCTg5SBG9S5ahDpYsJJftu879ozwU8vU9XdGuFmJgfQBayA/DnqPRavfOkSDygGMWTdJL49zd0CyVXnOZJlSMtsY/nOPcrxHh/d1Z9SM3YAAueyKv9JBU9mk4xIqJ7DUAN33LvycNfi9vS901Z3gL1EolfoznbK6KIRsCeiulxrQNAr/dEhTHv4fYbR9MrkRwPH2m4pu4Jt0ySDa7oM3GevCZ5tdu/43jfNNZso1npudKks6X3NSFrjRc1sjm1kWWAlSXOguF/9YxdSoZRNhU79dte62NZIsHfbn8JkaQiAJH+2tCfFsvNIm2/ziEMSwf1eOHtyGvAVlJ8kCgmkhSbAA0CNZSHTNhLAa2RJrkKHkB5McaBl1bUs2hrVIg9p6tAUg39zrTPwFTzbnAXYeT6pbfhYk+6VeqT3lxmLd4O3hiLFhmOOp6Y+/Tkd2kAfsqT+wWRTQ5J7O2G8qolzE7yksscqofrJCGnjoQAc74FvFrOBtHRnxo0GKT/yu2jJbwysx3z0D3rBSMYY6hHM5rGXB+rvzj6tNNxAhbdCamRo6tQBr4QnC0j/QxahdmPvE0cPXDq0R/prCdhC1krX1xlghW1z2Jt4M/oDC7nBf6ekXwnQTk218g==
+ properties :
+  width : 936
+  height : 701
+  widthClient : 934
+  heightClient : 669
+ controls :
+  -
+    name : COMBO_PériphériquesBT
+    identifier : 0x2887076b1249d1b4
+    internal_properties : CAAAAAgAAAD0673qE574MU/8ZXTR4Ersw28tud1xIC8aMe2rs0kzHnRCtX5DNvl9qyHtkpEthmeXUuo4bQWYeoGdPCZqLjzuuOB3hXJxMpJcF+kgqs++Jp7AuVfCMxm0VOiqlfJTQvv5Yp7EfUurP1QTVZvHqgSJaxhET4XEf6sHH74vt6SMvf5ULNj9eUsoDPKeaeQdb2xyoYNQdKKlobkpw57Zb0iCPFI5GpNtyLlzHxtRM49kgU0wih3lTKvdKFRnikr3hItuMw/gkaVMJ5xAT+R8HfqC2eIT/deXA36GyIqQbp8ZjQlW/DGWcMGHoKLAIrSsSaSotXg2nR0wZRzFo1T1CBD6HSfVTdeH5eTFZmi9y2MnPVnxT5XqcteAdFI/LJJGiK+wob84mGUPhP9ReU4PL3k56ctxiptN69Zq9OcDkPlJWPM9e/mMGNeTs4naPR0R8BAoH/eqFKTqsIE+9tIZ03RR9lu+CS/JAiOK1j/yfORJVPZljGVMrHN33zy/Vm75IYxoXnj96clcst/iDJLJAWCEX3flXtl9HOY0H9MApjDJt2U7KXm5A+YmlOAJCuHVze3hvod9epnipiqic36eMyZcP/GWYAZv+PsCozz0QQMx3GbszWfp+WoLU5C6/gVFr3bdQp2P/Z70OvtJ2jh3wXhxGt/+VBOf5+Y+LvqI5iBKirz4Ctpd08uvFvQ+0Of8xk7H7kgFn4AUdDQqvmOMnU1rTeTI/VTR0lDmOvbOiwq6BBikIOSwZUpLMcfW0AHMVUI839bWlw5X8KZcJY56qGkmwAzKossecMvfQ/DyZ2Hc/TuHsmRJgh2Djg32lRUIQ4qjF94nLZvFSV6bStNIYaOaGkkGLf61aDO3zgOQe3fLd+Tr3+hDaFN6D+a5Oeif9CgQ0qeDUoI4dcoHCNdDvbFekhxDUGpvjCjJf3KwetWW5eQRPZvMxYhLSivzQZWyuQQd9Gn0PQlnyzN4CzW1Y/pK6eo0iUHqyu2wTBJs2mPbrYgzplBlgDlWhUv29YAa8PHg63fwZfPQrm9qwQJElENkMcX20O6jekNyxLeIzbsCIxMsr2a5IQT3bZ+rtRehZAvNg/xN86RlIR8M7nyWlWl/46gtEC1uAuMghBOfl9es2MPqm66KC96IGKzVLG09oyPEqLeu5Gl+q6gNjqV3fQ0mEAVLqIgmkuQFeBl5ynDLO4gpcFWVAOf05Ucux5MMrdkWkWSqJxUznvcbHd+xGiccksqlkmsngNfmGu3z6pNXLChUMPCfDSjFCFfNwrctgCufcN1Qc4hxTAAx1TX5G2kuFakRl/6+WhNT8IeMEKYMCqcbVmnT+3BMqjZC87aHrYbqFocH90hwmUfNGeETNsifreO0EIz+UdIf23UFDDrb8XaRMUe3tE7gIOJlg8xAeKJgAqfLdN2dRH7wqV1U4x4Sa/G+xJLefBt4WvD+aYMWdJRMhUGM1FnGj3Vz4/xcUx8RvpK7crFNK85b7x99MMDcNvkGvgvbm9bWiDxiXMmVwnKiLu+yd12CY1Uy04W9yudFM+hy8d+A7VHQUMr5gNDkRvy9Sw/br9mKqA0eEtcLcyIT8jqWwi4+BvnihkSPiM45gdLmbGgMdGUgdn6EYtNN9S4GH2yWPVIN278LPn7nNJTOkN0FLQpMn6oMapwmhNWM86WXd8Feodm8glYgp4iXntITtCWMNwXaDVT697FRBNBgxZLRS42Fz8Q6CgnvM73CVq5iEGl9h4HxHS7NdbM5PRXhvbXLWPXnL70LjK3xGZuFnRrs960DBzMUCRxcp0mNUjYBVkRVQm+nmf8o9HAdyLCs5pnv8VxERedXJhOGorFV
+    properties :
+     x : 13
+     y : 13
+     width : 518
+     height : 30
+    dropdown :
+     internal_properties : CAAAAAgAAAAZM2BQ2O1I/zOnavpyv+JW53Qzs9ItiEWLduo3fqGk8eSyhj4MRr9ZD79sss8ZIHV4JufCMfMArkXUIOJ7miLmuFmP0mMMoxmekN98jacjqQSuZX6RRUhpvnQxJRZHL52Wcn+Q9jUg1qwiUjcfZciUMxvMlKLxzEYLDOaj80aNhrK9FR3ksbufDH29UOwANX0QCxKHjknYE+BMPHMZt40FwZ5m4rqYsQJDM6gJR9A5uo1A3nPSFg5HdPDguyByDpLJFqd8mJVDED0S5b0r5ogVVGG5C7Q8H3J1UaPAyiJPrAQOCMIgCoDgm3TcHR/Ox/XE4JLDVd7p7nwZG2CNS+Q16T74+fZ5eEPNxnGyS+W78t+/HXDFte2Cuvxx2/5P+P9lsbf5+HkO9rDAEU4rsd5Pn589TmEc0CZncfP8jIO+tyETQV8P3swVYvvSL+MY4ptQSrJIgyJl69KqjAQ9S62Koqm+bJcBdMT8Hiilq4hln+ZxsVsSorWhNPUsxA+EbMeGX2+grggov35/a2dasFpHEJ7jUGmeuHZBba0k073E7eeqT5b5FKiwf2Hi187/pF6U8cHehigR3gX2PLsqUV9OrTqwjTtQkD4ihtV29O/QySu8yAfXd3Fn42BNWKxvaZPbPfaGq3K9QwgamOoSxyTb7Qcg3Ip1+zIbb8OWxUpt4e/I7gSHlRUpBYkK65IUzMvB0nSqIXfRRFLL3+b15wXZ3ozJoB4l+egDpNIoiQMgg2jDEbqvR2rWcTN7F2dX83F1h851Q6jvuQBvoW0AeAlWaRYa
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+          
+        type : 15
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_Parcours
+    identifier : 0x28870a6c20178da3
+    internal_properties : CAAAAAgAAAA673HHK/y2EffjQqbiMQxmN0ezju1nF+ff1wAlSKRLQPKHoQ3F77IefU8bpINrfnvkAlym/1h2PY5Y2q/yllrB6B0WXEXuUP21VJzUqXf03uhrOlCxYgA2/sKoinIa5VPcfpYlmRWyeJik7FR2I/0Xk1GKJy6oj8KfVAogYlwKJjN0GxEQW20RV3pVgakInHo3BGMWhg4WaUbh/lixVC64GD1hW+z3AvKAtEnJQOtWr/XZSD0IRjwj+X372esGCmyE3BMTOU6IZzFjwfcC6d/K98g4yYOtEHBJRGj5Ws5AN5O/1dgDrzNruwZ1l/S/vkWZJ7DA+ydSffJp0Q62XIfkG/dnuwSRGIBX0ClBMrzFvnt8JtieFCl+U5gZcYAV+p2sRgSe0ZAPFAveEeti1Ok+xkmgMM8WQASSfAVN6CjpCs4AWOOT1BcvFX/WkVzBBvwYRPJIBuO5BlKBz04ZKOqbeWY9T9KeXZiykCSHase1xERe0k6rpNvUQqHQDlmKSp9J7BGXQmB2kkZk/YYP8z49IiH0z1yL/WbThXwggwPNM8aBD4u8vbpALfcDaNedqIxhLDMp/05JjL2wX6LJ1e1tyXlV0/ufFrApqJEGCaGCCCiM+Gd2jHkXGIXqEoj/hZjSz+WKlYCky0UrPqicWIbP1HwMM8jTq9kefHmsyZ0nCKvZeIA0Bu5vuB/dJQMrSTarwwKx2LG2FDyvNPUsmX7Zn4PPieKybZmazRTecJgDykA3gejlgFz2hgajt/VQLHR+9wfLu2uQ5aotPP9qB0mNtkKC60hJ+kvw7u0KpSoSJz1pzMGAgHWQoSxCK9piKffpJ6xOsm/k0kiYXepPlfeXuxk9YcZf3J6V5451pvNNIoc2dkwFlZ9SNIIKJBg4YCgNRo9pZNc6mUYn4Fl6uOEKkYS1PjYFDD2B8MlhC5ct
+    properties :
+     x : 538
+     y : 46
+     width : 32
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADx2DCwXbsYW6eA/SOMoBS9wAoIDjPmM1XLlAr4hPvnJ5SBJTUq2XdLbJtseavGzc4DzxVrPscsN4JP08gZtWvmPKCWHHNgfgSkXSsOfqJdJII/atKMQM5hLK3sBFj+kbskWD+DrQh8L3n8O1Dt4A5moVhYCAKryJyR4kafhTN+/Q==
+        code : |1+
+         sablier(vrai)
+         
+         //Code de sécurité demandé sur le périphérique Bluetooth qui reçoit le fichier
+         sCodeSécurité est une chaine = "0000"
+         
+         sPériph est une chaine = COMBO_PériphériquesBT[COMBO_PériphériquesBT]
+         
+         // Connexion Bluetooth
+         BTConnectePériphérique(gtaPériphBT[sPériph]:nIDPériph, sCodeSécurité) 
+         
+         si gnIDCnxOBEX = 0 alors
+         	//Connexion OBEX
+         	gnIDCnxOBEX  = OBEXConnecte(obexBluetooth, gtaPériphBT[sPériph]:sAdresseMac)	
+         FIN
+         
+         //Un message apparaît sur l'écran du mobile pour accepter ou non le transfert de fichiers
+         Info("Un message va éventuellement apparaître sur l'écran de votre mobile, pensez à le valider.")
+         
+         //Liste les fichiers présents dans le répertoire saisi
+         sListeRépertoires est une chaine = OBEXListeFichier(gnIDCnxOBEX,SAI_RépBase)
+         
+         sUnRépertoire est une chaine 
+         sNomFic est une chaine
+         //Ajoute chacun des fichiers trouvés dans la table
+         POUR TOUTE CHAINE sUnRépertoire DE sListeRépertoires SEPAREE PAR RC
+         	sNomFic = AnsiVersUnicode(ExtraitChaîne(sUnRépertoire, 1, TAB),alphabetUTF8)
+         	TableAjouteLigne(TABLE_Fichiers,sNomFic)
+         FIN
+         
+         Sablier(Faux)
+         
+         //Message si aucun fichier n'a été trouvé 
+         si TABLE_Fichiers..Occurrence = 0 alors
+         	info("Aucun fichier n'a été trouvé dans le répertoire spécifié.") 
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_RépBase
+    identifier : 0x28873053073c9d3f
+    internal_properties : CAAAAAgAAAAaPhTFN0IfFGKhQV+2Qm40vEuaW5uAM5lCPYLmMB6aYVVujganiARoRqKqelP3WcDhaVSxPGoYeGLOUGuKIWdfjbMFLQXtstePjp5+6hLovz2JYzFNLNvnm6O6y/gPKxEInX2CLPDpT7mX7qFtsIzuponDtJ9js48PmXp6gEFr+C9hm68MtmEqEM9GHqoK03SPt1R/ul5Ii6SgxmNxuSCySKdpyGQXULLyoXliXpIK2cLsLp2TB1zUV7Ye9xjWcfe3AvzXZx0+pMawAk5w4JWGGMDNJuGqFE+O5LhKeSMs+23b4GCepbFayAyFl0zwJ6QP2h0gdv4n0JPrNuSd8dVFwYIocc1ACfKuJs/lNJ1zR6MeGC3dZdlrDuO9k6+GobgJYGmn42n1wZgBZIi1dgOTcDhYyf0s/gmv6/LoiZwD8Z1BXdWN0HwZjA+63SEZQLjvq9tptsd7q2znT+M/yZebK30+KOdVgNSHlGLa6Mq9kw6ytTUZtWuDogj7ygHC3q24C40kSysDalgmH4VOVcFC24ae0Jj4PZyTTsxSrxoy0KlUydLGO5fYjeHUWvYYW3G4NUNZx1gC6PM2jbq4b25GHYc0zFDgUSTE7vpXpJoyfHLssDznieNZ2trteOFvX7maylMzZvYSfDUowsoo6xvMEY2aUvMECVYfWpiThUQc+PeApC/KIrb+G+NihiaXFpYPZG/8Ppuhsz/RWGcsTHuldiwYoU2y1paHhe9of7SQ2lFHRCoRD6Lr0TbV3jgd7opBgQCNjpddBe/+yxMjLZ0JIjs2tuS6eWTbziWjzNWhI6GditLsG8P2ZomCL1JmNTQ0wxWKd/S4Sv/IUjegNbm/7zEyX+ztOOpz3BzFXa7NJoOOSVrUqXA3NkArPE4cuHgCmkplU5GhbP3vnmFMZrNCECGj7LYFhENoMi+dIQHYxkb95Fu9Cjhfg/mfWzeQNJDm3pgyHYLSYOF2w9WPMR0qgKN7YsYhNIQWuea1tSa61Iaka4vOeLKwkTAd6zjIq3XpWHHQcpulH1JN/8uX0YgcoK8w/P43cEAiz1HUiqhpcv4cj351CIUKWsfH4jImqGASk9E+QBO5h8OA8kC2EKIzRh3t/KZAwqS37Ye7MhdY1LT+D6tLhja89BzS9VdsULjJxa/xvMTPaJVIMkfl8TfbPkxJCV/bxivtvs+YDyPlWWUfUXGO7sLtq7VXpOli45Blv7+R2f+n9BFlM5exke8qQVbfv786GHLszGUR2MRYRpbw26TzhOwEQfwHrwanzMWz8D1HqoDRbZ4BsMdiJr0RCMZIg64iox9GbzLNFTHqD14MkEO6vEEt7VPPKlHZahybdvScYBvz10xnA+PdjY0AEmqb9rfJcdRSZ3oQGbRd8lbP/FylUPRl2Wo9ywTtLbXjDYxjt/iPL2w4NRd/
+    properties :
+     x : 13
+     y : 46
+     width : 518
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : TABLE_Fichiers
+    identifier : 0x288730790dcc30d7
+    internal_properties : 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
+    properties :
+     x : 172
+     y : 79
+     width : 312
+     height : 169
+    columns :
+     -
+       name : COL_Fichier
+       identifier : 0x288730790dcd30e6
+       internal_properties : CAAAAAgAAADhea4KBb6PtRAYNmurzQYFYFpYxzhdbn8pzVXfOXzflmlZ65ZI5iXuR28N4nMCFRojwkn2OeSNitWkgTnFtyRegswVn2QU90RI0iO73leoDnG185EFbv8b+RL6Dh1pcKH3KXuHo0wmKVp919A22oz8hElwT9K71VmywmBCXAlgd4/6TJNqMypTgGliJ5UUBqzDKQsjJEZy4npo4A==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAA1Drx9K72piH7qcdOY9XYS/5RFfWPbJ0pyZMJAowlc0Tw6KjQpBUlBiQ+mo/CNbH9TWQtUyjIMXTXAv7bCGYDVLiHdidwqgZsn/fRWS+7uVojkNpwmLSeoo6JhnvRbKedF+Sk9NZrA9NiNp4wuYyPOspwgvuVCPDCRKrrSRod/emJKVfs8i1OsNImcYACvTQfYbk//tZWdeJOzaEDPCP09v1uiwFSySdud8L0ljH9GUmk8DxOsOUENOutyFnZ+5vDP3G6fBt0nlNez7sYMvl3F34uDI8leBNFQ6UnPGcGVawsJf5EpD5zF8Aj41XNt6vX5T3B4YpXqBQMtugT6Z1jH91MzxAoORqzAZotJCaV7eMPQdeSk+ehXLLL+1Hwa8EpsNX+JSEs0+8N5XIaCfKinMpcgfe/XKTqpVk6NYFpNcHUAlcEYDGBB20tPdH241cMRNnUxzYO7Vv05hG+k6A70HR23zsq4aziWxPCNMU6bTB+rmkgJ7VjXwUGqnM1yVSRiZNQ8yKg5InavABy2nTzk1ekogCujP6RwRsFMiF5A58kisRBcNMt2IGDxZ+QROWVtRh8smSF6fS6buRPSu9Hws4GcpCZ0lJsa66XXxBC4Xs6iyrZU+nMATeb+M1EQTpvHmiaFJoDeXPTIk2G3c+kBBCNOmp2xqJhEnmArec8dnuA11YofGIx46WzNcUu04iRIl85iiiUV2gXXNm1Kbg8kSafX8n34wRv9UGDBrsA08Ncf+UIEBzuUDQtRH8miX6NG0IaPA9fe+AcFWsIviP9VgqHaVVSJ0FmEoK8aRDzYZ9BCETyWqdwPMFJxSQh32eLIkExXjiwVvev4mdv3Ge7D/YA/kDXS61XeYvqPxo+z8hjEfNwRNJP1zemJTzS28rb3rzBrn1zuMUdIdrZIrY49xnbjO8PzFMfMRZqJ7Dj92afrkkZVw76lL5Wg6vASDmVjeyzsg608xfr9QzGUUthvOx+otZYJjg==
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAAa3kU5AigCQIIfmtjl4ZU7Vmeu3XUiLqhoWcRgucoEgkIfTwez3l9Ie8FUeqdYvGc08TQyP5j06mXAcnBWEZ0P85uxGE7zWYn523UXfw==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : BTN_RécupérerFichier
+    identifier : 0x2887318910465612
+    internal_properties : CAAAAAgAAABSW3MWp/37DO49yFw4P9F+gAh0EQE/Q3eFjZAicG2Tw+/Ho0v3+HbKKq7st4ex+qByrwBBK9ps5uTKWr1l6vMBp3hi4C7vBp8lFwz9nlh6Ey56KjbxFliolIhOEWWf9E9lsfiNN5+7f5lcJ7s7S+7LCoXBakl7+ZkcyFPoqM4AxsXQNFp7STu6Qg+mK+KJzUuQeBjnWsWj8qp6qW+i1a/+4qf81JPQQ/niDCBNQ1ItFmyqIv7lFOyydCo03KTKrAEcSF7KkoEVl0EEixHq+AQBCMBSXNJZ49j5lUPclF/yszloVh/i0quwG5fz/cfK04Vub6KVLP4Xb5/nr5p/S7VfhhuIhCwa+ETeGs/8pU9jRFexoSkHO+eKGud2B3PTAygt1ZYqszjTUVErIVzBEG8V0UcdFxFrEQsvvIhwsxk3AVg6J7Szk1VQ4hhg+D/pj6DazyMw+8mVu4FrzqkODi7w0tNSjPIWABc7b2nq3ECOjxvYR8nzABm2Y4zNd8vygoZP2A4k0rLaQI7drDc1tQzO+HMZXd+e2+xUI2dJobmRYMdESrFiNQJBDhViIR4cC7blHDizd9k2XMH7AHOpcM1xAoTPwm12WoB8O2aED7TKcuNs/xMwveFsw5EwA0HwZO1VaXMwybafJpguxX70wqjTtmZVta6O7QmoVHD3JwPqtYGLd9PZsbDfwIlIOQSK0qxX2fhgeHvc32dpXFYb8PAIhIWUZPKcJqdVYgj7lzvgI8988eSUBywY20WAM+TrANnfdiGCN40mNLURPlm1rsj+RNzR/EyFDBNeoIOKuZw0sQRE+Y7053jOuGeEZS6ohEEwnUXbQmgZtN9qv2zAaZMjBjO5Ubqww8A1gDJtvBvNTS7swPLvmJNpkfzWJypx9ABH2UK+JT6ByGEt9NyvV8OLRU8GfOYQZlpjX2OxKB+pp3+sYd1H6LXEs8ESHemWwqtFgmlslktHgUydDsPnX6U=
+    properties :
+     x : 491
+     y : 79
+     width : 79
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         //Choix du répertoire par l'utilisateur pour la récupération des fichiers
+         sRepCopie est une chaine = fRepSélecteur("", "Sélectionnez le répertoire de copie des fichiers...", "")
+         n est un entier 
+         
+         si sRepCopie <> "" alors 
+         	
+         	Sablier (Vrai)
+         	
+         	//On récupère chacun des fichiers sélectionnés dans la table
+         	pour TOUTE LIGNE SELECTIONNEE n DE TABLE_Fichiers
+         		
+         		SI PAS OBEXRécupèreFichier(gnIDCnxOBEX, SAI_RépBase + ["\"] + COL_Fichier[n], sRepCopie + ["\"] + COL_Fichier[n]) ALORS
+         			Erreur(<§$0000§>, ErreurInfo())
+         		FIN
+         		
+         	FIN
+         	
+         	Sablier (Faux)
+         	
+         	//On lance l'explorateur pour accès aux fichiers récupérés
+         	LanceAppli("explorer """+ sRepCopie + """")
+         	
+         fin
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ListerPériph
+    identifier : 0x2888bc6609369148
+    internal_properties : CAAAAAgAAAAbkoHhABriw8TlneNdipikEZuJ9+9N0k33LbY6p6ByZP0oZOPaCWSQbOfKI9CVNKRJOe4HuPQOSx2f+G8xDtOC2IRWCMG8cNlBoYbrqwLvWGzLeTIIIuofxBe+KE7fdStDh2pEahc/2mwsOv6GS6IBPTO6eshLW/ZQmvQ1apeEF05mt/H7U8Rt0idu39gt97o5pBlOdvbJ6Ltg04Sqq4jxyqTqWKvUjDgjTx+GmQ+AAHMIWZly5g8yt0sxsBAjL5LpJpdfmvXEGnmuoACZc35CknfRKZj6MnyMOdgAtCExEE+WnX9mz3aKZg0D0kgqZ5fivPlEqeVI+QMe4swk+xJAYGGNHWkFUR2z5Jq7A7rCGBYIVIOt9TknhUanAZh+pvhuamAFRm0Q6+duNLt1Zu5rRrSzQ/ZcJ89ekBMPRxKNaI1Y4+nk0yhvdmgsML11MmxB3Vr9oP8faIxOuBuI7u7hEOTEVgPo4EKtHbGym1SOTdk2OiY3RA2/P9kKEwbt98v4C1KOmgAj5q4GvOUdVtt3QqH672PAT/kWk/cyhjLVMuZ2VZmVwCnrEty6rPuFlwBr9LNdbEm5hB0bQZCRBVyccbOaDXUAoRNuIIMAnCd1Znq4FYs+Ja6vpS6p8NdNBuHMTNJXtlMF62xjjoIJS7Ec8HfwmIKm1eCRSVcTqpjG54hLhMDzrRQ8FgED747WUz7SsoxJrnF4iPmkRCPy8vRybftiR9/wsdtRf8a9AcV9Bq2KEwINqv67hiHA5Oc2L1r/6t+BMhgHJq0r58wJGdR8Z+hj0sSckGXXqq+pqivrU1X7eAWR3V2tal0cDa6ISOzMMhcvRayboEeInEBaxrF4v/NPkT6vlcGz6yL54L7+P/UxZ2+8Hy4iKcsImepihoaht/9NSNYqskeWadlGwL8m9T+mK0o+3VQSYddSBD1OOkKUGfURNI2oHHjVHED01YmThsmgdYyU8+fdhi0gFmw=
+    properties :
+     x : 538
+     y : 16
+     width : 32
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         sablier(vrai)
+         
+         ListePériphBT()
+         
+         sablier(faux)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Code
+    identifier : 0x2888bdcc17e10723
+    internal_properties : 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
+    properties :
+     x : 13
+     y : 274
+     width : 905
+     height : 383
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : FRM_Forme1
+    identifier : 0x28899b701f38ceb7
+    internal_properties : CAAAAAgAAAA/BWZRAxmGOuw9pS+VFt2jtNmktyJHqji/Sam/9C1hTaZ3TEKcVvfN+Xl95ftKFPDVAI8JQXqjnPMQtZZ7sObCcS33e9nJ3gn50x6P4eMZ10T8+AXDIDydO5kWsytmOxw5U3d8sk9ysCBjqFDRDQ8qDw3mltHacpy0L9KdYiHVcuFu+tWYpw+V13YcmvvtKkcZvVLwFB1WrOO3gjMr8Sb8HIBR4JsLvSjOA17IKVzwjkcRa4BH+3ihbm2rVsr9OBVmNFhTwtYQtYNqOE7ilDLn3Uu70yH1BHd2coiElJTT9riUalQt2t29HxgzTXjl9II+zliXA9kYGa4L1dciyvc4lpzwTNciIOtQP5CIqnGGDZplXYETGnrDaIxbL7m/YqKqrg==
+    properties :
+     x : 13
+     y : 260
+     width : 629
+     height : 2
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+  -
+    name : IMG_Image1
+    identifier : 0x28899fdb3f9611fe
+    internal_properties : CAAAAAgAAACIe1VJVA4TaBg9tUMPL2WWNc82Z3ysOUNN9uQEpRkTkBvfG9BZmlU2X6aNQCDTFB2GpJn52tt3UccM9m2fbiS4Lb9k6vFpj0YG1Xp3mD+xXjOujFI/xh9rg143bE1Q21nV5C2ZCitjpjM+eOPNV0Oh+TbHXS3/6mc17cGKykSO38Ofo1qlBJErs4tgg7LPhssDVULl8ba5wmkUGgGAvECWMehRJjsPQWR6pztNaQHK9ESz64hvQO/Wd4Pdnfe3O9UT2YGlhiOfzFCU7gwYOtqj+C5QekDamFF/GPkZxVKcZjEk8lLi95bOcL7FKmnvbP/D72vroUakY24v0o1pkhXotI3S3cYPj4odDo6ObnmW/Gu4dNPaekFRiSzUHtC4m6IFqL+vZZT94pFmzQ+QikG2aerdCp32ETpx3YcShNiL/xqLuQhZPsIvueRZU//5K772eSvHuGNVPbnRGvcQp4b0g1t97UdI7aEUPtqagGX2MpdTA+UuARkfWVRmGbSV5um9dq0TU+2iHVsHoLLV3dxf29OJpyiM0s9eQeQGWz18RxczOj6R6+lnBGPo6tbVs+meZePvUMB9K+eZsAfMBcA25+aaVOPsKtAcf2DnKjMACqZAKqd5IK3hv+2pVXp3TKOqH5MBsY7vGt2AtEqhrrzHJ4dalaCiB1IIGavVxBeuPhiNBYn/Ik13rG7coTrKl0X1u5yxalSRBF0hDOYihxKJ/zNJFXBoPi4okcR+KE32DrURZyVRBaxmJqd9wGrNbW9Gulqk+mdrPvLPI+a8IqZwRCraH2GJJmLFP2lOhf6ZkJvmAlliEH5UpQ85EB2PbCT+sD3J+qZZxZ9JuVIOkH1IIjafD4zrckyrchUrCoyw/MFDIAIgSsphBae5t2v75ks0TslctZYoEe4GFLT7b/cWH4GJ
+    properties :
+     x : 676
+     y : 104
+     width : 242
+     height : 322
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x288707520eb06e21
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADc1GQ94o9/SDRDmfM9bKLdXR9VK0rX3qzQNxgLTREwyqjz09Swq+McwjWWBzyo1QjRBk3dY7UbLNe40qK/NzgNxrumNSydD8vUTxqrHrn4vnA4c0+k0w7n04Cixj5n
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      //Structure pour mémorisation de l'adresse Mac et de l'ID d'un périphérique BT 
+      STPériphBT est une structure
+      	nIDPériph est un entier
+      	sAdresseMac est une chaine	
+      FIN
+      
+      //Tableau des périphériques BT
+      gtaPériphBT est un tableau associatif de STPériphBT
+      
+      //ID connexion OBEX
+      gnIDCnxOBEX est un entier
+   -
+     internal_properties : CAAAAAgAAACoV1QyO/VOqKNus9YSJ4QvaxiJNazVLBZBGz/jfbe2V08o/HndBcfP7vqL0cXCt+Qn+Idnu7mJAAMcXknjvOePZK+Ww3YqB5z51Q48mSy9EcoBgFnhqRnne+mbCkCbgqU+5ffrEunCS5hxmQ==
+     code : |1+
+      
+      //Listage des périphériques Bluetooth
+      ExécuteTraitement(BTN_ListerPériph, trtclic)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     internal_properties : CAAAAAgAAAA3w9+TRV+ggUvgkRsEaHatjsj6sKtbdCFNxrTOWlUzWdzhQSnw/zUzas2Sp9k4pSyHUzVb0GGG47itzfJzI/PUc8+3e5JhfwnvIOhJs43Em3k2Q0FDUbdCg4w180nltG63W8QOYAHxKIACXhUwxRtn/q036VMuPxf6b5Fkd5i4uw==
+     code : |1+
+      
+      // Déconnexion OBEX
+      OBEXDéconnecte(gnIDCnxOBEX)
+      
+      //Déconnexion Bluetooth
+      si COMBO_PériphériquesBT <> -1 alors
+      	
+      	sPériph est une chaine  = COMBO_PériphériquesBT[COMBO_PériphériquesBT]
+      	
+      	// Déconnexion Bluetooth
+      	BTDéconnectePériphérique(gtaPériphBT[sPériph]:sAdresseMac)
+      	
+      fin
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : ListePériphBT
+     internal_properties : CAAAAAgAAAAMG0FJON0fyyZbjPeWf7I3+ZNEfabexV51Qw7CgtIRda/49DLmIG+1nuD0whhTrwcoR8JZmXrQ1qj4Ln8+cDjbQeMseRJcA9fbslb+8lAvBsogRbkdp3eEx8UkV4pm5ZL+6eUZWXg8iy30MjctCcYHQHq7cCUoD9BHkBoG3phKp3tCg9Dw7hrsQILA6kuvHTRtHBJ/Z7zU/hNWkWMrHIbwaVFKTPWXZLOUTujQCbXkTM9mS9xX2FANiN8pmF94
+     procedure_id : 1767869209743901801
+     type_code : 14
+     code : |1-
+      // Résumé : Procédure qui récupère la liste des périphériques BT, mémorise leur ID et adresse Mac et remplit la combo avec le nom des périphériques
+      // Syntaxe :
+      //ListePériphBT ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure ListePériphBT()
+      
+      //Suppression du contenu de la combo .. au préalable
+      ListeSupprimeTout(COMBO_PériphériquesBT)
+      
+      //Récupération des périphériques BT 
+      sListePériphBT est une chaine = BTListePériphérique(btListeSimple)
+      sUnPériphBT, sNomPériph sont des chaines
+      stInfoPériphBT est un STPériphBT
+      
+      POUR TOUTE CHAINE sUnPériphBT DE sListePériphBT SEPAREE PAR RC
+      	
+      	//Récupération de l'ID du périphérique BT
+      	stInfoPériphBT:nIDPériph = ExtraitChaîne(sUnPériphBT,1,TAB)
+      	//Récupération de l'adresse Mac du périphérique BT
+      	stInfoPériphBT:sAdresseMac =  ExtraitChaîne(sUnPériphBT,2,TAB)
+      	//Récupération du nom du périphérique BT
+      	sNomPériph = ExtraitChaîne(sUnPériphBT,3,TAB)
+      	
+      	//Mémorisation dans un tableau associatif des informations du périphérique BT 
+      	gtaPériphBT[sNomPériph ] =  stInfoPériphBT
+      	
+      	//Ajout dans la combo du périphérique
+      	ListeAjoute(COMBO_PériphériquesBT, ExtraitChaîne(sUnPériphBT,3,TAB))
+      	
+      FIN
+      
+      si ListeOccurrence(COMBO_PériphériquesBT) = 0  alors
+      	info("Aucun périphérique Bluetooth n'a été trouvé.")
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : _Vista_01
+resources :
+ string_res :
+  identifier : 0x18870732002df1c1
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Impossible de récupérer le fichier.
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

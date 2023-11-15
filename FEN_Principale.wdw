@@ -1,0 +1,153 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Principale
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Principale
+ identifier : 0x294b64a81d27da4f
+ internal_properties : CAAAAAgAAADd9ntcdBvFsX5RmxoH3JNpy+zhLsLmlYKQW7Yie1pJirYxbZl/T9Y6IOCGyN8HaNil76oDclHB7gYCrwDRSy4ubxpF+98kAWBdQi8IBSjswksmFn8PUBmfcOvhXHrSfoGyhRft+q6qumcJWj0ijj7iE4Q9WkZo4asHSi1dZW2iv+vA7mBKleAb9GS9kspdeCVIEunWSTMX/h2Sbgs4pGolIrvfn7yRY/fcULzXnsoK9wSywdLBZq/O0QXdiZdFMfTlgbkOV+vH72Yb+B7jXm/nAJF9OJoREJ8RIYGdY4/u/k1v0yNOYrQ4/4/VFgJjdFOfwLszxgGuRK9BsR6MG6FaUkQyjhCJIZJeiq6cPySD0Cyxw/sFIhOSe1L7cUan9DB130eA/UXMwUIL7DzQ3c+Ns79QkNDIcH8LFf8smdWJoNuvtCUnCiPcWwxj6Q/z/vroyqaQU+Z3NP3BzjS48skeUdVEoSixryoHrTy4wuK5wJb0a04on3u6QDLvAhZkndjSPh8zAX0t7eq/QVzMtolPuwIxP37hN7VihwGlNJvjZBHaAuNLssJEHlNkKgTRsv12Z7z+p+6TM2anbVGeFbGFD1BrOKh775hZCUOcSC2T2L4dPdjS54T1EJJtzBA7BxQq7WiVPdj7pz2AtuhmWAo5wfTJDOSZCy/J/lvz2AG+c6NxcH7A34IVCidW2rDfGpvV7z51MXa2lV8SJ87uXpH03tdItmbJ/2ClT1qlDpqzYF4xvXmNRF/CyeRQYdy1PA58J32WgylXix4V5P1OowwBMXoJ7WTTXiUpVyl43mtiWcyyBZrhFJeP9BxndnGJnQGw+50a3WjSMtfg6kFEb6tWWMXMTvo=
+ properties :
+  width : 449
+  height : 350
+  widthClient : 447
+  heightClient : 318
+ controls :
+  -
+    name : IMG_Transférer
+    identifier : 0x294b64a81d30da6e
+    internal_properties : CAAAAAgAAABQHuj2EduEwW1NwKXTMqdDUCRzz10+9KfNsKwLSSGjnKNN21DjbsD3yd8tx1j/LFaJPf/iyl6YYWiaUWRmORi/pBpV4F6HlhGaMAZTGqwW3gd3WXuL6EbWvtTm5K276+27vf5SLfnXSc8LNs9EdA2u64gXv46I73l5+wWLRrWvFXjcqkddd30DStx+cOoGSdq+Y7ci2KS/PItT4BnIlWXRIbJ6ehTmKx0R8kEljIToVE5I4mjR7vV6U3t8tA6Mkf7c5cxH44+RGcqBvhp2M9MzOi/DqLjotkU8njXHHfUE78V1Oj8hFe4mY6EfE7cWMP0Z47krHxIybLlbUR5XTR7VCAFEkLLyDqZHPPFq7rX2yKCysB1Ye3s4GRRa3RKJ5/Ttge3shIXpudk8t7A29yf9Om5aAhBsYUkY303XUebH088J358aGiQSdPeZ2D9fqKP+PRQ/D1WWVJT3QmAZcFkhRpq24suhaSFSM2gfzxh+QrZlIZtqss40a8kncjhAbqNm2vxmAW4pNHJHYXW9zKSO54Ovd9xMSkFc7FQAirH/UxoBXfMHnauZP8mFdUyY1F+FataBJD6hH3dciUM35WeX7ZN/bn7q5ZHlpGjOyE+ZySbDZXXrLYNx7zA7oxGE39KSqqfEnx1UT63jFcETZ77tyE0tyy1HMMsR7DMXhYfYY4oEQJfzj9cz3GEfOH2822aL99zU11rE1LXEaWKDs/DuM+DlowprhZmK4L/KSzBg4/i0BXOaJ5Nl1cWyoXff2w4zLLr2K4ylmITcv3eRBAx9g+qPUlRVkIS2DzMAUqz4HJzAYozOTwKUGbBczlTSZIgr5+H7GiQEog//0+/9QPTSX6giCeT4X5xXn1tkDYQxrYvnl3sGTbXzN6b0kLJZUIr0RY5E0iNSzxQMB2mIWpNDJLEEUhpNHHBymg==
+    properties :
+     x : 66
+     y : 25
+     width : 80
+     height : 80
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         ouvre(FEN_Services_Et_Transfert)
+        type : 18
+  -
+    name : LIB_Transférer
+    identifier : 0x294b64a81d31da6e
+    internal_properties : CAAAAAgAAAB+4dc7kAc/XDRj25G9rYv+/Qcu4fcobxAn9gf/HsTqOr/9Zkma/SKwAUUvQv42FZOfUWrWP/Rc1zaLXgwa50UJMQOat8pxh8gNVthHVrqN6f09d19Q8X0xY1lZbiE7sbKrhw4LuThr0opdo5Fl3IF9DM1i1uFbkzTMbvfGZdBGYyBgInX3WtQqz401jzsFCye1N6iGj5Y7rw8GdduLBRfZqdnK/k/NXf0uGcBDxqK6L3MMOXDT0fU/tXNszEKmj5SJE2SQThloKkO0cnBT49bBqT9mXcaC0/bXuofwOlk4lgyFwl1A2WVWZk+2Pb5cBx6SvsQHunRYRVUxfaZlBxNoO9J5QFyV3M68OA2LnfDooYHCF9vWM0RP+UtlxmM+/Pty8hiWi/Jh6GliHPN1RO9tO7+P5Dp5OXIf+SAbRfBFmiDXa9UpyGjiV8WPtzaAPewaiNbysecVZkd9PboQVzAUzLIL38ZXXU5z9KAZkwY6N307SjN3Ah7IgAJ3JmIupAXZjdFZ1xhgZNO/epUix1LlxV74V6t2OEP/oUC+UXrdrKrlTp07wroOyRRgpxij3iZ8dOnfcviog76uNwU7ZAvitPr9zTk=
+    properties :
+     x : 184
+     y : 31
+     width : 172
+     height : 53
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_Récupérer
+    identifier : 0x294b64a81d32da6e
+    internal_properties : CAAAAAgAAACWUB5ouxj8KUWTfI0f9nE14vCrv4GSzEd3XxQvielb9LdNy5SL7khDQQsp4RNNO/WdY587nmJ9fzaUr/EdPO3l3nc+e8T+1NdQvY6mpwXtZmNZYIi3KE0Ts0oji/flJNLoaFQziyApisUkgqubYD2vABkJw6vTAhoOZnq+KHjVgx6sIdmfZieNKi4ZkRjuIolYJ3oswT6hkMoKOVze0zrEdUcrsU92epiDTkIxnhtL860pP8SSvBwKviiAoGvlrR84buPZTsz0KG4oHAWC3QWJQ/NaRZsluYofushrR5/GJq46bORTMxB15VmKkVMuuJw0O2yHgjEX5OxjhUiZTD5mMft0ioKyKHrtFhGt/m7nPiJAGBnOofcdC6SMDeM+6js5LNOPgP7GoPEyY0jyKbAvaeQmvIWz9FHi//f2PRPWRbJzlVozwAAGesp6HJIhzAbWCVoRz6YBEHwiGopJq/UacHA26ets9qQHuyVE/EGS1PUCpHj1L8s7XvzJCwKRd4Unb6DvN4vqpj8ak6tV1/8tN9zKZBSSZ8Gww42op7gu0MLWw283Obd/tRH+Tm6gRvnb3GRii4dk6vLC6yLIJ6xDvEwSfNdgRdGVo1kd/c8K/HsuxZek3DRk2JqiIz0oksCAHqvJoZ79RceqnpYnE+tBseF1/kr29xMGiqfrd7Kc16R4tEJ/DQjuH2MzehPFxrhAj1GobyMBk51H6BVAvm+fzBFguHAjxXHqKTjJc1K2y8mYhYmYMVmoCEIlpnzaeLV4/WdZctI6UYJlqd3C1R1khwaw2fy4BcOZ83FSnGoKJp7ItOJw7arcXUTAohoUimYPP+0Xaa8haZrcPhxCk6k9nkGRgp8F2lkownJ9lAyDd62diclQK5c1IRSmpoyHmnxPEu0tLZhLPpeRUla/G7A6tconl8DHkjY03A==
+    properties :
+     x : 66
+     y : 113
+     width : 80
+     height : 80
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         ouvre(FEN_RécupFichiers)
+        type : 18
+  -
+    name : LIB_Récupérer
+    identifier : 0x294b64a81d33da6e
+    internal_properties : CAAAAAgAAAC7xAfXlX4gB/fkfIKIzkhYJqJbQIFfy3+oa++w11Q3TjEFxZe5ukAkI9z+npFgWFbePmBl+FyV4wxPsCL8dfL3UVdid/uBClJvjvc/n5mnSbPqj8ygPn8njIQuyguwEX1rgcIlhIyGghiN5CFpiX98j4dksHIIG8t/4sHQcuvyEBXepQARvZwmeFXG+5NgSPPmGBxyPA7RCi8szZZD8T7qhxNiAy3fLpfB3nlbAtIzmxu9t82B2FEW+16KykGMk5d9NWeCGaT6UiMNn3xTJKZQ8CtbZRo1j4uT2N38xAaNXzmIuAC7I/vYtRc999lmdhppayRQa7F7R89hz3+XLeAmdPmYy7OyPh8cOu+Em5FKftMnAfTktvrHVHGOGpFt2Ar9rXHyiMucUQinBull55Oyq8CGXLkzsHr7GylQSogKIh+fXc4k6MUkaXNKPpELbX+IVcR/msWsDhlmg4TmBkZpOYAtzOPFCwf8FJQUuLRxKNP+e9Xtz2yGUOWyMR7/jwi/vgxb3BLber+ChE/SgCyEajRNHk8QI0/bqiVZ6TA7e/SgnOIYm++YaGcYMCS67TepIOOE3kohWad1bzLeGZMiCSU+OQ==
+    properties :
+     x : 184
+     y : 134
+     width : 172
+     height : 53
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_Services
+    identifier : 0x294b64a81d34da6e
+    internal_properties : CAAAAAgAAAClusQP7Wo2EjeWzt5ErIZJpw599BkvBRHG4g39DsD9HVTDjfrAvlDEstV61SE41E5GJwMtmkfk4EVhs852k+led36kMjdbOD8E1pxE7d7R9l0mI/npAROxKrS3VAjokXjRiQa2PBgjfEGzbimWZZ4kNfbkNyoqhwXc1dJR+1PCsPEOzZQDx5FFAc5H0h7tQ+FPQyubHOp79XIa297cc4nRLNZ+z+Icai7CyuB1uO2H0ZUjD1WFcUWvGUskZr1nEeTANANO1CWyM3pRKYgQ1lyw1SS4/XxnYhp3X+94/5L6RJTtuUZgap6om69MbWa0rW5TOqTRILxGSzVO/FF7fU/DBKJS5cshl+xiKCveQx5FtbtPSGGO2ek5QfVkR+dHtuW/uDhw6crGDe5yGBQuafHMByM96TqvrR8MrtLlO+9ychrjIdSi4+OEjjrnFE6zIQHNfOpZ/E+8TC3UfsraPGmsPnRRY13xsgTVtoW63zGLvy0gkuRkCY+/LevV6vsk6lbCnQQLW4ovAF7eiBvBlZ13kEzu4ZKGt1SyFuoZJApCpql6fswmJvFYWvfnbbgUNFf657iNBpgMxBqcaCABqWMuLAsDT4wNEBIOYCdrQIauAP0Mn6npKPql4aMBMmkyLKLWmbK7s7le+jIDNCwBswZqCZUQ580Z6o7/JHzuSzBgPyqxp17PykVTz7EdxXLjlzs3HUTSSac/edD8HkkALqLHMaU+mLg1n1RefRKziBG4P2lK266nw2Zz5Tf8aWPt9VS8Q1pzGIvOJpj6/La+Z+w+PbdvFJN8EvDFj3lZiAhIi7WGT9RiFu3JBRz1H8wVInzZkPlIrl32hITRN5ytjoj2bRgyk4NaBFB/zRkpkQa+/pRrnZ/D0+EDTR8qPXbybn55nKC0oKGv8B5l9tQ2B7s6Z0HuiYfRyPJ2MxDZHok=
+    properties :
+     x : 66
+     y : 210
+     width : 80
+     height : 80
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         ouvre(FEN_Services_Et_Transfert)
+        type : 18
+  -
+    name : LIB_Récupérer1
+    identifier : 0x294b64a81d35da6e
+    internal_properties : CAAAAAgAAAB859EhG5ywZxuG0Oi8uppl/HRBLgaZ/DMmcV2//nHnDKPjwtMKfUQo/WNYi2R4uzFnf01ULdqFtpIflS8V5EIGAHvHF29jy6FyvSKhirOLZb/FSZHd6yTFg31er83fsK4RhQnQem1hCq7neLrpFyJ8Uym6C+OUufwLLqmP9VNjHNp1JHcZkE1AorAQvnNs0lhpLCbK35CDG4KBR27+cA1oyr82Novkl1AbAYTKOj6PpsthxoQEDpuXEmIjeM48ENmKxsN23c9qN8qlE79pg0NPyS5vD5KUlXPJERwCeL/luoBVP9kIX7WYEvETwd5EzuuYTmLdndADb8uXeYyzK8zajHn0QUmGO/HQQO5bkP9bUipZ0aXfqvNoqZcn7aKlrewa/PpunNn1s8I7QRZUmx6o4uCQd1Znm8KviWg1CXCFXmwTrwRKy7W/cEySlknSXQ6cCj+ndURxhBe7NwpoV+iu+FuVPZQPJCt0ov3EYKvaxyjetTDaLyGmNGbnlqQyPSXjiGTba47a4F8rkgVKrbRbm/QV+vST2+KoRxn/nBVAN9eM7XJylRTz4s09Yt8ga7XtZVwEf4tFXAcHpKiS6YxlOgD7zzs=
+    properties :
+     x : 184
+     y : 227
+     width : 178
+     height : 53
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x294b64a81d36da6e
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADc1GQ94o9/SDRDmfM9bKLdXR9VK0rX3qzQNxgLTREwyqjz09Swq+McwjWWBzyo1QjRBk3dY7UbLNe40qK/NzgNxrumNSydD8vUTxqrHrn4vnA4c0+k0w7n04Cixj5n
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : _Vista_01
+resources :
+ string_res :
+  identifier : 0x1fc4fd8203f26f2a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Principale.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
